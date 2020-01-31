@@ -7,7 +7,6 @@ namespace gityan.Models
 {
     public class User
     {
-        public string Name { get; set; }
 
         public void Hello()
         {
