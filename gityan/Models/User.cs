@@ -9,6 +9,11 @@ namespace gityan.Models
     {
         public string Name { get; set; }
 
+        public User(string name)
+        {
+            Name = name;
+        }
+
         public void Hello()
         {
             Console.WriteLine(Name);
