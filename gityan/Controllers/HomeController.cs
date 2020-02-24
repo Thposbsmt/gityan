@@ -17,7 +17,7 @@ namespace gityan.Controllers
         {
             _logger = logger;
         }
-
+        // Comment
         public IActionResult Index()
         {
             return View();
